@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Holi Special</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   
+    <style>
+        body {
+       
+    
+      background: url('https://w0.peakpx.com/wallpaper/1021/185/HD-wallpaper-happy-holi-colors-festival-happiness-iphone-joy-wishes.jpg') no-repeat center center fixed;
+      background-size: cover;
+    
+  
+            font-family: Arial, sans-serif;
+            text-align: center;
+            
+        }
+    </style>
+  
+  <script>
+  // Function to check if an ad blocker is active
+  function isAdBlockerActive() {
+    var adContainer = document.createElement('div');
+    adContainer.className = 'ad';
+    adContainer.style.display = 'none';
+    document.body.appendChild(adContainer);
+    
+    // Check if the ad container is hidden
+    var style = window.getComputedStyle(adContainer);
+    var isBlocked = (style && style.display === 'none');
+
+    // Clean up the ad container
+    adContainer.remove();
+
+    return isBlocked;
+  }
+
+  // Display warning message if ad blocker is active
+  if (isAdBlockerActive()) {
+    var warningMessage = document.createElement('div');
+    warningMessage.innerHTML = 'Please disable your ad blocker to support our site.';
+    warningMessage.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; background: #ffcc00; color: #333; padding: 10px; text-align: center; font-weight: bold;';
+    document.body.appendChild(warningMessage);
+  }
+</script>
+
+
+
+
+            
+
+
+ 
+<style>
+  
+  
+  .separator {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            background-color: #6F2DA8;
+
+            padding: 1px;
+
+            border: 2px solid #ccc;
+
+            border-radius: 8px;
+
+            width: 100%;
+    
+
+          
+
+            margin: 0 auto;
+
+        }
+
+  .imag {
+            border:1px;
+            border-radius:8px;
+            max-width: 100%;
+
+            height: auto;
+
+            max-height: 100%;
+
+          height: 100%;
+
+         /* Set a maximum height for the image */
+
+        }
+  
+  
+  
+  
+ 
+  .img1 {
+
+            
+            border:2px solid white;
+            box-shadow:5px 5px 10px rgba(0,0,0,0.5);
+            border-radius:10px;
+           
+            
+            max-width: 130px;
+
+            height: 200px;
+
+            max-height: 170px;
+
+          height: 200px;
+
+         
+
+        }
+   .surprise {
+        display: none;
+        text-align: center;
+}
+     
+.scroll-div {
+  display: none;
+  position: fixed;
+  top: 500px;
+  right: -200px; /* Initially outside the viewport */
+  background-color: #f0f0f0;
+  padding: 0px;
+  border-radius: 5px;
+  transition: right 3s ease-in-out;
+}
+        
+      .close-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+        color:white;
+        width:25px;
+        height:25px;
+}
+  
+  
+</style>
+
+<style>
+      marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: Black;
+      font-family: serif;
+      }
+    </style>
+    <style>
+      
+    .border {
+    border: 5px solid skyblue; /* Add a 5px black border around the container */
+    margin: 5px; /* Add margin for spacing */
+}
+
+      
+      
+    
+    </style>
+
+  <script>
+    function hideButton() {
+      // Hide the button
+      var button = document.getElementById("show-surprise");
+      button.style.display = "none";
+    }
+    
+     var video = document.getElementById("myVideo");
+  video.onended = function() {
+    video.style.display = "none"; // Hides the video when it ends
+    // Alternatively, you can use CSS classes and toggle a class:
+    // video.classList.add("hidden");
+  };
+    
+    
+    function shareWebsite() {
+        const userName = document.getElementById('userName').value;
+        
+        if (navigator.share) {
+            const customMessage = ` ${userName}🙂 Send you a Holi Gift 🎁, Check Out Now...`;
+            navigator.share({
+                title: 'My Website',
+                text: customMessage,
+                url: window.location.href
+            })
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing:', error));
+        } else {
+            alert("Web Share API not supported on this browser.");
+        }
+    }
+
+    
+  </script> 
+</head>
+
+
+<body>
+   
+  
+
+  
+  
+    
+      <button id="show-surprise" onclick="hideButton()" style="align-items:center;color: white;background:red;font-size:20px;border:2px solid white;border-radius:10px; padding: 10px 10px;position: absolute;" >👉 <b>यहाँ क्लिक करें</b> 👈</button>
+      
+  
+  
+     
+    
+    
+  <div style="display:none;">
+  <audio id="music" controls>
+    <source src=" "  type="audio/mpeg">
+    
+  </audio>
+  
+  </div>
+  <script>
+    const playButton = document.getElementById("show-surprise");
+ 
+    const music = document.getElementById("music");
+
+    playButton.addEventListener("click", () => {
+      music.play();
+    });
+    
+
+      
+
+   
+  </script>
+     
+
+  
+  
+   <div class="surprise" style="text-align: center;">
+    <script>
+const showSurpriseBtn = document.getElementById("show-surprise");
+      const surprise = document.querySelector(".surprise");
+      
+      showSurpriseBtn.addEventListener("click", function() {
+        surprise.style.display = "block";
+      });
+    </script>
+  
+     
+
+
+
+     
+     
+     <br>
+
+    
+      
+    
+    <br>
+    <br>
+    
+    
+    <div class="">
+      
+    <img style="box-shadow: 0px 0px 20px red;width:100%; height:500px; border-radius:10px;" class="" src="https://i.pinimg.com/originals/7c/bf/7e/7cbf7efd56e22e545c8adf676aeaaae5.gif">
+    
+    <h2 style="color:white;font-family: cursive;font-size:30px;-webkit-text-stroke: 0px white;text-stroke: 0px white;"><b><p><br />
+होली का त्योहार है खुशियों का फूहार, खेलो और मनाओ ये प्यार भरा त्योहार।<br>😊😊😊</b></h2>
+  </div>
+    
+     
+
+ 		
+
+    <img style="box-shadow: 0px 0px 20px red;width:100%;height:50px; border:1px;border-radius:1px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+    
+    
+    
+    
+    
+    
+  
+  
+     
+     <div style="background:white; height:auto;width:100%; border:1px; border-radius:10px;padding: 10px 0px;">
+
+  
+
+  
+
+  
+
+  
+
+
+    <h2 style="color:red;font-family: cursive;padding: 10px 10px;">Lets Celebrate's This Holi in a Digital Way...</h2> <b>😁 I Have Some Amezing Content For You 😁</b>
+    
+    <p><b>☺️Keeping Scroll Down and See☺️</b></p>
+       
+    </div>
+<img style="width:100%;height:50px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+
+
+
+
+
+     
+     <div style="text-align: center;color:white;"><b>TATA IPL 2024 Live</b><video allowfullscree="" controls="" poster="https://images.indiafantasy.com/wp-content/uploads/20230418043623/RR-vs-LSG-Dream11-Prediction-Match-26-IPL-2023.jpg" src="https://prod-ent-live-gm.jiocinema.com/hls/live/2100323/hd_akamai_androidmob_avc_hin_ipl_s1_m1240324/master_480p.m3u8" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video></div>
+     
+     <img style="width:100%;height:50px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+
+  <div style="width:auto; height:auto; background: black;border:2px solid white; border-radius:10px; padding:15px 0px;">
+
+            
+   <a href="https://telegram.me/hivajoymovie" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+        <img class="img1" data-original-height="300" data-original-width="627" height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYBewfbw8AA9LyGF-yB0PEKCHNZ-0xzTEaiQ&usqp=CAU" width="100%" class="ad-imag"/>
+      </a>
+    
+      
+
+
+        
+
+      
+   
+
+    
+      <a href="https://hivabytes.blogspot.com/p/games.html?m=1" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+        <img class="img1" data-original-height="300" data-original-width="627" height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJPEDqpOkiDUf7wyh6X8vUyA1cWz7NkUEWQ&usqp=CAU" width="100%" class="ad-imag"/>
+      </a>
+    
+
+    <p></p>
+    
+      <a href="https://hivabytes.blogspot.com" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+        <img class="img1" data-original-height="300" data-original-width="627" height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJUiBKP7tXExvZ3graMRnbPjtX3dm3lOh2oQ&usqp=CAU" width="100%" class="ad-imag"/>
+      </a>
+    
+
+    
+      <a href="https://hivabytes.blogspot.com" imageanchor="1" style="margin-left: 1em; margin-right: 1em;">
+        <img class="img1" data-original-height="300" data-original-width="627" height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSic3zn3bCU6WtxWNdCQWx6OyC0yUaSsSqwwA&usqp=CAU" width="100%" class="ad-imag"/>
+      </a>
+              
+    </div>
+
+     <img style="width:100%;height:50px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+
+
+
+     <div style="width:100%;height:auto; border:4px solid red; border-radius:10px; background:black;item-align: center;">
+       <h1 style="text-align: center;color:white;">•••GAMES•••</h1><br><br>
+       
+       
+       <a href="https://hivabytes.blogspot.com/p/minecraft.html?m=1">
+       <img style="border:2px solid yellow; border-radius:10px;width:280px; height:180px; " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKSXVK6BTWK7tRqGDyldlyRygpJ9kYwyeMQ&usqp=CAU"></a><br><p style="color:white;">Minecraft</p><br>
+       <br>
+       
+       
+       <a href="https://hivabytes.blogspot.com/p/gta-san-andreas.html?m=1">
+       <img style="border:2px solid yellow; border-radius:10px;width:280px; height:180px; " src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCFrM_HyOgRfw9DyNHRpUFiE4FwA5Pr0W79PgHVc-Ig1FNBsmmLDVZs3cbhS_i4-IYb5Qikf7MSLOdB_imE2K1GubwVItQ4zxNPZiPs1u_hDMv0FVoZRQOs3whKWSaR9XeWBjQeWW8sbeXfL13zYxFBZjU_PUfAAuQEol0jp3uzrNwwpkDprB0UPhbfTfk/s320/maxresdefault.jpg"></a><br><p style="color:white;">GTA San Andreas</p><br>
+       
+       <br>
+       
+       <a href="https://hivabytes.blogspot.com/p/free-fire.html?m=1">
+       <img style="border:2px solid yellow; border-radius:10px;width:280px; height:180px; " src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBQ_k27MxK3me2RjSSS1qB7pUw6vPLbaUIgYtkza5NYyCY2P1ir-M2NHB_G-5YSDoy1LoC54pKiQ_vtsbGuv2BCPyZ02W2p5L_2EIxbpb54cVq5YSZ_XFS0VAcTJwAWjMFsh2KdpFwKB8V8kUIuXO1WYQ_B8jM21YD2uN2dIRXruhOuIXpYXeLnrhWi6nS/s320/images%20(16).jpeg"></a><br><p style="color:white;">Free Fire</p><br>
+<br></div>
+
+
+<img style="width:100%;height:50px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+  
+
+     <div style="width:100%;height:auto; border:4px solid red; border-radius:5px; background:black;item-align: center;">
+
+       <h1 style="text-align: center;color:white;">•••Movies•••</h1><br><br>
+       
+       <div style="padding: 0px 10px;"><video allowfullscree="" controls="" poster="https://img.republicworld.com/rimages/hanuman-1704941782426-1704970420342-1705140882753.webp?tr=w-600" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/6600072018924b6981c937eb" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Hanuman</p><br><br><br>
+         
+         <video allowfullscree="" controls="" poster="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/shaitaan-et00384234-1706179766.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/66000ff018924b6981c93800" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Shaitaan</p><br><br><br>
+       
+       
+       
+       
+       <video allowfullscree="" controls="" poster="https://www.heavenofhorror.com/wp-content/uploads/2021/09/nightbooks-netflix-review.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/6600080718924b6981c937ec" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Nightbooks</p><br><br><br>
+       
+       
+       <video allowfullscree="" controls="" poster="https://i.cdn.newsbytesapp.com/images/l820240101132727.jpeg?tr=w-480" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/6600093718924b6981c937ed" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Bramayugam</p><br><br><br>
+       
+       
+       
+       
+       <video allowfullscree="" controls="" poster="https://www.heavenofhorror.com/wp-content/uploads/2024/03/Iron-Reign-Netflix-Series-Review.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/6600096418924b6981c937ee" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Iron Reign Session 1</p><br><br>
+       
+       
+       
+       
+       
+       <video allowfullscree="" controls="" poster="https://shatpod.com/movies/wp-content/uploads/Roadhouse-1989-Movie-Poster-.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/660009cb18924b6981c937f1" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Road House</p><br><br>
+       
+       <video allowfullscree="" controls="" poster="https://www.fetchtv.com.au/v2/vod/titles/2286319/landscape_thumbnail/334x188" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/660009fc18924b6981c937f4" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Project Ithaca</p><br><br>
+       
+       <video allowfullscree="" controls="" poster="https://imgeng.jagran.com/images/2023/nov/AeWatanMereWatan1700494334050.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/66000a3018924b6981c937f5" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Ae Watan Mere Watan</p><br><br>
+       
+       
+       
+       <video allowfullscree="" controls="" poster="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/63e3171900674d001c6d1bf1.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/66000abb18924b6981c937fa" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">The Quake</p><br><br>
+       
+       <video allowfullscree="" controls="" poster="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizCdr25p1DFU2plZjH6deLqUwMv2Ga_QexGxj-ifOexXay3HMhQPrLcmFk2pKCmXWx6qAqfnXd31NBzlHxQO8at7zN2dQlFXSMfhZdwZfsA99qxyqSXfPMF2DoKr_FOvAaFC4FP-KSJsWI30QReWEUEQn-W93FAdGBcbvoWZCfGEXZMSqt3NngfFJk2mY/s320/image_downloader_1703310906206.jpg" src="https://file-streamv-f1341d4d5804.herokuapp.com/dl/66000b0418924b6981c937fd" style="border-radius: 10px; box-shadow: 0px 0px 10px black; width: 100%;"></video><br><p style="color:white;">Gods Of Egypt</p><br><br>
+       
+      
+       
+       
+       <a href="https://telegram.me/hivajoymovie">
+       <img style="border:2px solid white; border-radius:10px;width:280px; height:180px; " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDif_yIAPPGzuArkFe_SOvcmS009Tmml171Q&usqp=CAU"><br></a><p style="color:white;">Search Your Favourite's One</p><br><br></div></div>
+
+
+<img style="width:100%;height:50px;"  src="https://i.pinimg.com/originals/96/dd/76/96dd76d35704327ab8ddc1999e3be677.gif">
+     
+     <div  style="width:100%; height:auto; background:black; padding:10px 0px;box-shadow: 0px 0px 50px white;" >
+         <h1 style="color:white; padding: 4px 0px;">Share With Your Family & Friends 💕</h1>
+     <input style="background:white; border: 2px solid green; border-radius:10px;width:250px; height:34px;" type="text" id="userName" placeholder="अपना नाम लिखें">
+<button style="border:2px solid white;border-radius:30px; background:green;color:white;font-size:25px; padding:4px 8px;"
+onclick="shareWebsite()">Send</button><br><p style="coler:black;">text</p>
+         
+</div>
+     
+     
+
+       <div class="scroll-div"  style="width:100%; height:auto; background:black; padding:0px 0px;top:30%;left:-1%;
+border:5px solid darkgreen;" >
+         <img style="width:100%; height:auto;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5zl8kgSE96Vp-8xN9HsVV6NSy7655TQL2Ft_kIsexKv5a2rLAE4QtUODRVMqsEbVp21Cnqt1zk79r-Bk9ZOHq1JXFjJX3GcrHwxQDzBYJwWKTPAuCG8VrvyKZJX6Aus2EZgaEjqqNPHYZ9mtiHGP_qqv9xqnuibyd4kI18efiQHzYOE3oeYO3GTfuiaA/s320/images.jpeg"/>
+         <b style="color:white; padding: 4px 10px; font-size:24px;"> Error69<br/>Members Specias<br/>😊😊😊</b>
+         <div>
+     <br/></div>
+         <span style="color:white;" class="close-icon"><b>❌</b></span>
+</div>
+<script>
+     // Define a function to handle scroll and close actions
+function handleScrollAndClose() {
+  var scrollDiv = document.querySelector('.scroll-div');
+  var closeIcon = document.querySelector('.close-icon');
+  var yPos = window.scrollY;
+
+  if (yPos > 0) {
+    scrollDiv.style.display = 'block';
+    scrollDiv.style.right = '20px'; // Adjust as needed for your design
+  } else {
+    scrollDiv.style.display = 'none';
+    scrollDiv.style.right = '-200px'; // Same as the initial position
+  }
+
+  closeIcon.addEventListener('click', function() {
+    scrollDiv.style.display = 'none';
+    scrollDiv.style.right = '-200px'; // Same as the initial position
+    // Remove the scroll event listener once the div is closed
+    window.removeEventListener('scroll', handleScrollAndClose);
+  });
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', handleScrollAndClose);
+
+
+</script>
+     
+     
+     
+
+<div style="background:black;height:80px; padding: 10px 0px;">
+
+    <h1 style="color:White;font-size:20px;">Made With ❤️ by <a style="color:white;" href="/">Janvi Sharma</a></h1>
+    
+    
+    </div>
+     
+     
+     
+     
+     
+     </body>
+</html>
+
+      
+      
+     
+     
+     
+    
+     
+      
+ 
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
