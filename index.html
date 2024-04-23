@@ -1,0 +1,131 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>IPL 2024</title>
+  <style>
+.notification-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right:5px;
+  top:5px;
+  position: absolute;
+}
+
+.notification-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 5px;
+  border-radius: 5px;
+  display: none;
+  z-index:1000;
+  }
+  .red-dot {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display:;
+
+}
+    
+
+
+
+
+
+
+
+
+    
+</style>
+  </head>
+<body style="background-color: #000;color: #0f0;font-family: monospace;font-size: 18px;" >
+    <!--content Here-->
+    <!--Header Wrappe-->
+    
+    <div style="display: flex; align-items: center; padding-top:5px; padding-bottom:10px;top:0px;">
+
+  <img style="width: 32px; height: 32px; position: relative; margin-left: 10px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzZ-JW4TU-6FVt9B2oKlk2vwJ3KlO47eHgUhpGqzwDPPTEIwNU0MUO3qnm0dxMjKBnKkXff5Or17G027qOjJGjA9r0vyp62bZqY8hf0NYY7VtCfSouFjSZXeMwwalZbaFO-80XyNoSZS2dmUXp8u0iDt2qgyg3DSoHz7SE7zWU1a5fP54nKHeMWpZ4yKVC/s320/IMG_20240410_151054-removebg-preview.png">
+
+  <p style="font-size: 24px; color: orange; margin: 0; margin-left: 10px; cursor: pointer;"><b>Hivajoy</b></p>
+
+<div class="notification-icon" onclick="showNotification()">
+  <span style="color: white;">🔔</span>
+  <div class="red-dot" id="redDot"></div>
+</div>
+
+<div class="notification-message" id="notificationMessage">
+  You didn't have any  notification yet!
+</div>
+    
+   </div>
+
+<script>
+function showNotification() {
+  var notificationMessage = document.getElementById("notificationMessage");
+  notificationMessage.style.display = "block";
+  
+  var redDot = document.getElementById("redDot");
+  redDot.style.display = "block";
+
+  setTimeout(function() {
+    notificationMessage.style.display = "none";
+    redDot.style.display = "none";
+  }, 3000); // Hide notification and red dot after 3 seconds
+}
+</script>
+
+  
+    
+<!--Wrappe p1-->
+    
+    <b style="font-size:20px;color:white; padding-left:10px;padding-top:13px;">IPL 2024</b>
+    <div style="max-width:100%; height:220px; border:2px; border-radius:10px; padding:0px 5px; position: relative;">
+  <img style="width:100%; border:2px; border-radius:25px; " src="https://madstream.in/uploads/cache/slide_thumb_web/uploads/jpg/b1628fcc0b0d79ef66207c5a65cde4f0.jpg"/>
+  <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100323/hd_akamai_androidmob_avc_hin_ipl_s1_m1230424/master.m3u8"><button style="position: absolute; bottom: 60px; left: 20px;font-size:22px; border:2px solid rgba(255, 255, 255, 0.7); border-radius:10px; padding: 4px 8px;color:red; background: rgba(255, 255, 255, 0.7);">
+    <b>Watch Live•</b>
+</button></a>
+
+</div>
+
+    <div style="background:orange;width:100%; height:3px;"></div>
+    
+    
+<div style="display: flex; flex-wrap: wrap; justify-content: center; padding-top:10px;">
+    <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100323/hd_akamai_androidmob_avc_hin_ipl_s1_m1230424/master.m3u8" style="text-align: center; margin: 10px;">
+        <img style="border: 1px solid orange; border-radius: 10px; width: 40vw; max-width: 160px; height: auto;" src="https://pbs.twimg.com/media/GG6zvs1XYAAy7S_?format=jpg">
+        <br><b style="color:white;">Hindi</b>
+    </a>&nbsp&nbsp
+    <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100322/uhd_akamai_atv_avc_hin_ipl_s1_m1230424/master.m3u8" style="text-align: center; margin: 10px;">
+        <img style="border: 1px solid orange; border-radius: 10px; width: 40vw; max-width: 160px; height: auto;" src="https://pbs.twimg.com/media/GG6zvs1XYAAy7S_?format=jpg">
+        <br><b style="color:white;">Hindi 4K</b>
+    </a>
+    <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100299/hd_akamai_androidmob_avc_eng_ipl_s1_m1230424/master.m3u8" style="text-align: center; margin: 10px;">
+        <img style="border: 1px solid orange; border-radius: 10px; width: 40vw; max-width: 160px; height: auto;" src="https://pbs.twimg.com/media/GG6zvs1XYAAy7S_?format=jpg">
+        <br><b style="color:white;">English</b>
+    </a>&nbsp&nbsp
+    <a href="https://prod-ent-live-gm.jiocinema.com/hls/live/2100297/uhd_akamai_atv_avc_eng_ipl_s1_m1230424/master.m3u8" style="text-align: center; margin: 10px;">
+        <img style="border: 1px solid orange; border-radius: 10px; width: 40vw; max-width: 160px; height: auto;" src="https://pbs.twimg.com/media/GG6zvs1XYAAy7S_?format=jpg">
+        <br><b style="color:white;">English 4K</b>
+    </a>
+</div>
+
+
+  </body>
+  </html>
